@@ -66,14 +66,31 @@
         </GroupBox>
 
         <!-- Buttons Section -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+        <Grid Grid.Row="1" Margin="0,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10">
+                <TextBox x:Name="SearchTextBox" Width="200" Height="30" Margin="0,0,5,0" VerticalAlignment="Center" />
+                <Button Content="Search" Width="100" Height="30" Margin="0,0,650,0" Click="SearchButton_Click" VerticalAlignment="Center" />
+            </StackPanel>
+
+
             <Button x:Name="ButtonSave" Content="Save" Height="30" Width="80" 
-                    Command="{Binding SaveCommand}" Click="ButtonSave_Click" Background="#FF9BCBFC" Margin="5"/>
+    Command="{Binding SaveCommand}" Click="ButtonSave_Click" Background="#FF9BCBFC" 
+    Grid.Column="2" VerticalAlignment="Center" Margin="10,0,0,0"/>
+
 
             <Button x:Name="ButtonCancel" Content="Cancel" Height="30" Width="80" 
-                    Command="{Binding ResetCommand}" Background="#FF9BCBFC" Margin="5"/>
-
-        </StackPanel>
+    Command="{Binding ResetCommand}" Click="ClearFormFields" Background="#FF9BCBFC" 
+    Grid.Column="3" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </Grid>
 
         <!-- DataGrid Section -->
         <DataGrid x:Name="grdOrder" Grid.Row="2" AutoGenerateColumns="False" ItemsSource="{Binding Order}" 

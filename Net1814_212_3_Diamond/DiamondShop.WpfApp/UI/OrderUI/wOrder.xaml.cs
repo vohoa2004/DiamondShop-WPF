@@ -13,7 +13,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DiamondShop.WpfApp.UI
 {
@@ -186,6 +185,35 @@ namespace DiamondShop.WpfApp.UI
         private void ButtonCancel_Click(object sender, RoutedEventArgs e)
         {
             ClearFormFields(sender, e);
+        }
+
+        private async void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string searchTerm = SearchTextBox.Text.ToLower();
+                var result = await _business.GetAll();
+
+                if (result.Status > 0 && result.Data != null)
+                {
+                    var orders = result.Data as List<Order>;
+                    var filteredOrders = orders
+                        .Where(p => p.OrderId.ToLower().Contains(searchTerm) ||
+                                    p.CustomerId.ToLower().Contains(searchTerm) ||
+                                    p.PromotionId.ToLower().Contains(searchTerm))
+                        .ToList();
+
+                    grdOrder.ItemsSource = filteredOrders;
+                }
+                else
+                {
+                    grdOrder.ItemsSource = new List<Order>();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error");
+            }
         }
     }
 
