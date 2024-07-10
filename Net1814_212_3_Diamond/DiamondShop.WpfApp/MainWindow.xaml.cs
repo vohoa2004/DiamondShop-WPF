@@ -1,4 +1,5 @@
-﻿using DiamondShop.WpfApp.UI.CustomerUI;
+﻿using DiamondShop.WpfApp.UI.ProductCategoryUI;
+using DiamondShop.WpfApp.UI.CustomerUI;
 using DiamondShop.WpfApp.UI.DiamondUI;
 using DiamondShop.WpfApp.UI.OrderDetailUI;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DiamondShop.WpfApp.UI.ShellUI;
 
 namespace DiamondShop.WpfApp
 {
@@ -41,6 +43,20 @@ namespace DiamondShop.WpfApp
         private void Open_wOrderDetail_Click(object sender, RoutedEventArgs e)
         {
             var p = new wOrderDetail();
+            p.Owner = this;
+            p.ShowDialog();
+        }
+
+        private void Open_wProductCategory_Click(object sender, RoutedEventArgs e)
+        {
+            var p = new wProductCategory();
+            p.Owner = this;
+            p.ShowDialog();
+        }
+
+        private void Open_wShell_Click(object sender, RoutedEventArgs e)
+        {
+            var p = new wShell();
             p.Owner = this;
             p.ShowDialog();
         }

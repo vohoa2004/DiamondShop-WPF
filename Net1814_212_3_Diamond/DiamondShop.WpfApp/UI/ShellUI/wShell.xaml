@@ -1,0 +1,124 @@
+﻿<Window x:Class="DiamondShop.WpfApp.UI.ShellUI.wShell"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DiamondShop.WpfApp.UI.ShellUI"
+      mc:Ignorable="d" 
+      Height="450" Width="1220" WindowStartupLocation="CenterScreen"
+      Title="Shell">
+    <Window.Resources>
+        <DataTemplate x:Key="GroupBoxHeaderTemplate">
+            <TextBlock Text="{Binding}" Foreground="CadetBlue" FontSize="18" FontWeight="Bold"/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <GroupBox Header="Shell Form" HeaderTemplate="{StaticResource GroupBoxHeaderTemplate}" Margin="10">
+                <Grid Height="140">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Row 0 -->
+                    <Label Content="Shell ID" Grid.Column="0" Grid.Row="0" HorizontalContentAlignment="Right"  Width="120"  VerticalContentAlignment="Center"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtShellId" Height="25" Text="{Binding Path=Shell.ShellId, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Name" Grid.Column="2" Grid.Row="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="txtName" Height="25" Text="{Binding Path=Shell.AmountAvailable, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Price" Grid.Column="4" Grid.Row="0" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="txtPrice" Height="25" Text="{Binding Path=Shell.Weight, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="CategoryId" Grid.Column="6" Grid.Row="0" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
+
+
+                    <!-- Row 1 -->
+                    <Label Content="Amount" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Right"  Width="120"  VerticalContentAlignment="Center"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtAmountAvailable" Height="25" Text="{Binding Path=Shell.Name, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Description" Grid.Column="2" Grid.Row="1" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="txtDescription" Height="25" Text="{Binding Path=Shell.Description, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Diamond Shape" Grid.Column="4" Grid.Row="1" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="1" Grid.Column="5" x:Name="txtDiamondShape" Height="25" Text="{Binding Path=Shell.DiamondShape, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Image Url" Grid.Column="6" Grid.Row="1" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="1" Grid.Column="7" x:Name="txtImageUrl" Height="25" Text="{Binding Path=Shell.ImageUrl, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+
+                    <!-- Row 2 -->
+                    <Label Content="Weight" Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Right"  Width="120"  VerticalContentAlignment="Center"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtWeight" Height="25" Text="{Binding Path=Shell.Price, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Metal" Grid.Column="2" Grid.Row="2" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="2" Grid.Column="3" x:Name="txtMetal" Height="25" Text="{Binding Path=Shell.Metal, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <Label Content="Total Diamonds" Grid.Column="4" Grid.Row="2" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
+                    <TextBox Grid.Row="2" Grid.Column="5" x:Name="txtTotalDiamonds" Height="25" Text="{Binding Path=Shell.TotalDiamonds, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
+                    <ComboBox x:Name="ProductCategoryComboBox" Grid.Column="7" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Width="160"/>
+
+                </Grid>
+            </GroupBox>
+            <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="ButtonSave" Content="Save" Height="30" Width="80" 
+                Command="{Binding SaveCommand}" Background="Green" Foreground="White" Click="ButtonSave_Click" Margin="5,0,5,0"/>
+                <Button x:Name="ButtonSearch" Content="Search Shell" Height="30" Width="100" 
+    Command="{Binding SaveCommand}" Background="Orange" Foreground="White" Margin="5,0,5,0" Click="ButtonSearch_Click" />
+                <Button x:Name="ButtonCancel" Content="Cancel" Height="30" Width="80" 
+                Command="{Binding ResetCommand}" Margin="5,0,10,0" Click="ButtonCancel_Click" RenderTransformOrigin="0.718,10.343"/>
+            </StackPanel>
+            <StackPanel Height="280">
+                <DataGrid x:Name="grdShell" AutoGenerateColumns="False" ItemsSource="{Binding Shell}" 
+                 CanUserAddRows="False" Height="203" MouseDoubleClick="grdShell_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow"
+                    >
+                    <!--SelectionChanged="grdShell_SelectionChanged"-->
+
+                    <UIElement.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </UIElement.RenderTransform>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ShellId" Binding="{Binding ShellId}"  Width="50" Visibility="Visible"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="120" />
+                        <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="90" />
+                        <DataGridTextColumn Header="Amount" Binding="{Binding AmountAvailable}" Width="60" />
+                        <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="120" />
+                        <DataGridTextColumn Header="Metal" Binding="{Binding Metal}" Width="120" />
+                        <DataGridTextColumn Header="Weight" Binding="{Binding Weight}" Width="60" />
+                        <DataGridTextColumn Header="Diamond Shape" Binding="{Binding DiamondShape}" Width="120" />
+                        <DataGridTextColumn Header="Total Diamonds" Binding="{Binding TotalDiamonds}" Width="100" />
+                        <DataGridTextColumn Header="Category" Binding="{Binding Category.Name}" Width="100" />
+                        <DataGridTextColumn Header="Image Url" Binding="{Binding ImageUrl}" Width="120" />
+                        
+                        <DataGridTemplateColumn Width="50">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Background="CadetBlue" Foreground="White" Content="View" x:Name="ButtonReport" CommandParameter="{Binding Path=ShellId}" Click="grdShell_ButtonReport_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Width="50">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="X" x:Name="ButtonDelete" Background="Red" Foreground="White" CommandParameter="{Binding Path=ShellId}" Click="ButtonDelete_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

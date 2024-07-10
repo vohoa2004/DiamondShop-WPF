@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DiamondShop.Data.Repository;
 using DiamondShop.Data.Models;
 using DiamondShop.Data.Repository;
 
@@ -15,6 +16,8 @@ namespace DiamondShop.Data
         private CategoryRepository _category;
 
         private CustomerRepository _customer;
+
+        private ShellRepository _shell;
 
         private OrderDetailRepository _orderDetail;
 
@@ -53,6 +56,14 @@ namespace DiamondShop.Data
             get
             {
                 return _orderDetail ??= new Repository.OrderDetailRepository(_unitOfWorkContext);
+            }
+        }
+
+        public ShellRepository ShellRepository
+        {
+            get
+            {
+                return _shell ??= new Repository.ShellRepository();
             }
         }
 

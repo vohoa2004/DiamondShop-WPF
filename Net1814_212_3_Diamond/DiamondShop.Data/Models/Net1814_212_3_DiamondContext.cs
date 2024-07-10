@@ -218,9 +218,25 @@ public partial class Net1814_212_3_DiamondContext : DbContext
             entity.Property(e => e.CategoryId)
                 .HasMaxLength(36)
                 .HasColumnName("CategoryID");
+            entity.Property(e => e.CareInstructions).IsUnicode(false);
+            entity.Property(e => e.Description)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.IconUrl)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.IsFeatured).HasDefaultValue(false);
+            entity.Property(e => e.MaximumPrice).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.MinimumPrice).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(100);
+            entity.Property(e => e.PromotionImageUrl)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.PromotionalTagline)
+                .HasMaxLength(255)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Promotion>(entity =>
@@ -247,10 +263,23 @@ public partial class Net1814_212_3_DiamondContext : DbContext
             entity.Property(e => e.ShellId)
                 .HasMaxLength(36)
                 .HasColumnName("ShellID");
+            entity.Property(e => e.CategoryId).HasMaxLength(36);
+            entity.Property(e => e.Description).HasMaxLength(255);
+            entity.Property(e => e.DiamondShape).HasMaxLength(100);
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(255)
+                .HasColumnName("ImageURL");
+            entity.Property(e => e.Metal).HasMaxLength(50);
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(100);
             entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.Style).HasMaxLength(50);
+            entity.Property(e => e.Weight).HasColumnType("decimal(10, 2)");
+
+            entity.HasOne(d => d.Category).WithMany(p => p.Shells)
+                .HasForeignKey(d => d.CategoryId)
+                .HasConstraintName("FK_CategoryID");
         });
 
         OnModelCreatingPartial(modelBuilder);

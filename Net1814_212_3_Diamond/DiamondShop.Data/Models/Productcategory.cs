@@ -11,5 +11,25 @@ public partial class Productcategory
 
     public string Name { get; set; }
 
+    public string Description { get; set; }
+
+    public string IconUrl { get; set; }
+
+    public string PromotionImageUrl { get; set; }
+
+    public bool? IsFeatured { get; set; }
+
+    public string PromotionalTagline { get; set; }
+
+    public int? ProductAmount { get; set; }
+
+    public string CareInstructions { get; set; }
+
+    public decimal? MinimumPrice { get; set; }
+
+    public decimal? MaximumPrice { get; set; }
+
     public virtual ICollection<Diamond> Diamonds { get; set; } = new List<Diamond>();
+
+    public virtual ICollection<Shell> Shells { get; set; } = new List<Shell>();
 }

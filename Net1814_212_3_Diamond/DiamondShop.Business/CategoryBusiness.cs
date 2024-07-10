@@ -124,11 +124,6 @@ namespace DiamondShop.Business
             }
         }
 
-        public async Task DetachCategory(Productcategory category)
-        {
-            await _unitOfWork.CategoryRepository.DetachCategory(category);
-        }
-
         public async Task<IBusinessResult> DeleteById(string code)
         {
             try
@@ -156,6 +151,30 @@ namespace DiamondShop.Business
             catch (Exception ex)
             {
                 return new BusinessResult(-4, ex.ToString());
+            }
+        }
+
+        public async Task<IBusinessResult> SearchByFields(
+            Productcategory category)
+        {
+            try
+            {
+
+                //var ProductCategory = await _ProductCategoryRepository.GetByIdAsync(code);
+                var ProductCategory = await _unitOfWork.CategoryRepository.SearchByFieldsAsync(category);
+
+                if (ProductCategory == null)
+                {
+                    return new BusinessResult(Const.WARNING_NO_DATA_CODE, Const.WARNING_NO_DATA__MSG);
+                }
+                else
+                {
+                    return new BusinessResult(Const.SUCCESS_READ_CODE, Const.SUCCESS_READ_MSG, ProductCategory);
+                }
+            }
+            catch (Exception ex)
+            {
+                return new BusinessResult(Const.ERROR_EXCEPTION, ex.Message);
             }
         }
     }

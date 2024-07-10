@@ -15,5 +15,23 @@ public partial class Shell
 
     public int AmountAvailable { get; set; }
 
+    public string Description { get; set; }
+
+    public string Style { get; set; }
+
+    public string Metal { get; set; }
+
+    public decimal? Weight { get; set; }
+
+    public string DiamondShape { get; set; }
+
+    public int? TotalDiamonds { get; set; }
+
+    public string CategoryId { get; set; }
+
+    public string ImageUrl { get; set; }
+
+    public virtual Productcategory Category { get; set; }
+
     public virtual ICollection<Orderdetail> Orderdetails { get; set; } = new List<Orderdetail>();
 }
