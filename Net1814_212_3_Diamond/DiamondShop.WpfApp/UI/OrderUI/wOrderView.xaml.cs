@@ -1,5 +1,7 @@
 ﻿using DiamondShop.Business.OrderBusiness;
 using DiamondShop.Data.Models;
+using DiamondShop.WpfApp.UI.DiamondUI;
+using DiamondShop.WpfApp.UI.OrderDetailUI;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
@@ -51,6 +53,35 @@ namespace DiamondShop.WpfApp.UI
                 PromotionId.Text = item.PromotionId;
                 OrderDescription.Text = item.OrderDescription;
             }
+        }
+
+        private async void ButtonViewOrderDetails_Click(object sender, RoutedEventArgs e)
+        {
+            string orderId = OrderId.Text;
+            if (!string.IsNullOrEmpty(orderId))
+            {
+                var result = await _orderBusiness.GetById(orderId); 
+                Order? order = result.Data as Order;
+                if (order != null)
+                {
+                    wOrderDetail w = new();
+                    w.SelectedOrder = order;
+                    bool? windowResult = w.ShowDialog();
+                    if (windowResult == true)
+                    {
+                        LoadGrdOrderReport(orderId);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Order Not Found!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Order Not Found!");
+            }
+
         }
     }
 }

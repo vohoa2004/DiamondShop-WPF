@@ -1,4 +1,5 @@
 ﻿using DiamondShop.Business.OrderBusiness;
+using DiamondShop.Common;
 using DiamondShop.Data.Models;
 using System;
 using System.Collections.Generic;
@@ -35,7 +36,7 @@ namespace DiamondShop.WpfApp.UI
             try
             {
                 var item = await _business.GetById(OrderId.Text);
-
+                decimal price = string.IsNullOrEmpty(TotalPrice.Text) ? 0 : decimal.TryParse(TotalPrice.Text, out decimal priceParsed) ? priceParsed : throw new FormatException("Invalid price format");
                 if (item.Data == null)
                 {
                     var order = new Order()
@@ -45,15 +46,15 @@ namespace DiamondShop.WpfApp.UI
                         Date = DateTime.Parse(Date.Text),
                         PaymentMethod = PaymentMethod.Text,
                         ShippingAddress = ShippingAddress.Text,
-                        TotalPrice = decimal.Parse(TotalPrice.Text),
+                        TotalPrice = price,
                         PaymentStatus = PaymentStatus.Text,
                         ShippingStatus = ShippingStatus.Text,
-                        PromotionId = PromotionId.Text,
+                        PromotionId = string.IsNullOrEmpty(PromotionId.Text) ? null : PromotionId.Text,
                         OrderDescription = OrderDescription.Text
                     };
 
                     var result = await _business.Save(order);
-                    MessageBox.Show(result.Message, "Save");;
+                    MessageBox.Show(result.Message, "Save");
                     LoadGrdOrder();
                 }
                 else
@@ -64,10 +65,10 @@ namespace DiamondShop.WpfApp.UI
                     updateOrder.Date = DateTime.Parse(Date.Text);
                     updateOrder.PaymentMethod = PaymentMethod.Text;
                     updateOrder.ShippingAddress = ShippingAddress.Text;
-                    updateOrder.TotalPrice = decimal.Parse(TotalPrice.Text);
+                    updateOrder.TotalPrice = price;
                     updateOrder.PaymentStatus = PaymentStatus.Text;
                     updateOrder.ShippingStatus = ShippingStatus.Text;
-                    updateOrder.PromotionId = PromotionId.Text;
+                    updateOrder.PromotionId = string.IsNullOrEmpty(PromotionId.Text) ? null : PromotionId.Text;
                     updateOrder.OrderDescription = OrderDescription.Text;
                     var result = await _business.Update(updateOrder);
                     MessageBox.Show(result.Message, "Update");

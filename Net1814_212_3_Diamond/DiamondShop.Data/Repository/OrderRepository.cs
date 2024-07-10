@@ -15,5 +15,7 @@ namespace DiamondShop.Data.Repository
 
         }
         public OrderRepository(Net1814_212_3_DiamondContext context) => _context = context;
+
+
     }
 }

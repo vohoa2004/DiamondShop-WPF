@@ -11,12 +11,13 @@ namespace DiamondShop.WpfApp.UI.OrderDetailUI
     public partial class wOrderDetail : Window
     {
         private OrderDetailBusiness _business;
+
+        public Order? SelectedOrder { get; set; }
         
         public wOrderDetail()
         {
             InitializeComponent();
             _business = new OrderDetailBusiness();
-            this.LoadGrdOrderdetail();
         }
         private async void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
@@ -140,54 +141,6 @@ namespace DiamondShop.WpfApp.UI.OrderDetailUI
             LoadGrdOrderdetail();
         }
 
-
-        //private async void ButtonUpdate_Click(object sender, RoutedEventArgs e)
-        //{
-        //    // Lấy thông tin từ các TextBox
-        //    Diamond updatedDiamond = _business.GetById(txtDiamondId.Text).Result.Data as Diamond;
-        //    updatedDiamond.Name = txtName.Text;
-        //    updatedDiamond.Color = txtColor.Text;
-        //    updatedDiamond.Clarity = txtClarity.Text;
-        //    updatedDiamond.Carat = decimal.Parse(txtCarat.Text);
-        //    updatedDiamond.Cut = txtCut.Text;
-        //    updatedDiamond.CertificateScan = txtCertificateScan.Text;
-        //    updatedDiamond.Cost = decimal.Parse(txtCost.Text);
-        //    updatedDiamond.AmountAvailable = int.Parse(txtAmountAvailable.Text);
-        //    updatedDiamond.CategoryId = txtCategoryId.Text;
-        //    try
-        //    {
-        //        // Gọi phương thức Update trong lớp business để cập nhật dữ liệu
-        //        var result = await _business.Update(updatedDiamond);
-        //        MessageBox.Show(result.Message, "Update");
-
-        //        // Làm mới DataGrid để hiển thị dữ liệu mới
-        //        LoadGrdDiamond();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.ToString(), "Error");
-        //    }
-        //}
-
-        //private async void ButtonUpdate_Click(object sender, RoutedEventArgs e)
-        //{
-        //    // Lấy thông tin từ các TextBox
-        //    Orderdetail updatedOrderDetail = _business.GetById(OrderDetailId.Text).Result.Data as Orderdetail;
-        //    updatedOrderDetail.Quantity = decimal.Parse(txtQuantity.Text);
-        //    try
-        //    {
-        //        // Gọi phương thức Update trong lớp business để cập nhật dữ liệu
-        //        var result = await _business.Update(updatedOrderDetail);
-        //        MessageBox.Show(result.Message, "Update");
-
-        //        // Làm mới DataGrid để hiển thị dữ liệu mới
-        //        LoadGrdOrderdetail();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.ToString(), "Error");
-        //    }
-        //}
         private void grdOrderdetail_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (grdOrderdetail.SelectedItem != null)
@@ -274,20 +227,47 @@ namespace DiamondShop.WpfApp.UI.OrderDetailUI
 
         private async void LoadGrdOrderdetail()
         {
-            var result = await _business.getAll();
-
-            if (result.Status > 0 && result.Data != null)
+            if (SelectedOrder == null)
             {
-                grdOrderdetail.ItemsSource = result.Data as List<Orderdetail>;
-            }
+                var result = await _business.getAll();
+
+                if (result.Status > 0 && result.Data != null)
+                {
+                    grdOrderdetail.ItemsSource = result.Data as List<Orderdetail>;
+                }
+                else
+                {
+                    grdOrderdetail.ItemsSource = new List<Orderdetail>();
+                }
+            } 
             else
             {
-                grdOrderdetail.ItemsSource = new List<Orderdetail>();
+
+                var result = await _business.GetByOrderId(SelectedOrder.OrderId);
+
+                if (result.Status > 0 && result.Data != null)
+                {
+                    grdOrderdetail.ItemsSource = result.Data as List<Orderdetail>;
+                }
+                else
+                {
+                    grdOrderdetail.ItemsSource = new List<Orderdetail>();
+                }
             }
         }
         private void grdOrderdetail_ButtonView_Click(object sender, EventArgs e)
         {
             // Your code here
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.LoadGrdOrderdetail();
+            if (SelectedOrder != null)
+            {
+                txtOrderId.Text = SelectedOrder.OrderId;
+                txtOrderId.IsEnabled = false;
+            }
         }
     }
 }

@@ -48,7 +48,7 @@
                 <TextBox Grid.Row="1" Grid.Column="3" x:Name="ShippingAddress" Text="{Binding Path=Order.ShippingAddress, Mode=TwoWay}" Margin="5"/>
 
                 <Label Content="Total Price:" Grid.Row="1" Grid.Column="4" VerticalContentAlignment="Center" Margin="10,10,0,0"/>
-                <TextBox Grid.Row="1" Grid.Column="5" x:Name="TotalPrice" Text="{Binding Path=Order.TotalPrice, Mode=TwoWay}" Margin="5"/>
+                <TextBox Grid.Row="1" Grid.Column="5" x:Name="TotalPrice" IsEnabled="false" Margin="5"/>
 
                 <Label Content="Payment Status:" Grid.Row="2" Grid.Column="0" VerticalContentAlignment="Center" Margin="0,10,0,0"/>
                 <TextBox Grid.Row="2" Grid.Column="1" x:Name="PaymentStatus" Text="{Binding Path=Order.PaymentStatus, Mode=TwoWay}" Margin="5"/>

@@ -41,13 +41,6 @@ namespace DiamondShop.WpfApp
             p.ShowDialog();
         }
 
-        private void Open_wOrderDetail_Click(object sender, RoutedEventArgs e)
-        {
-            var p = new wOrderDetail();
-            p.Owner = this;
-            p.ShowDialog();
-        }
-
         private void Open_wProductCategory_Click(object sender, RoutedEventArgs e)
         {
             var p = new wProductCategory();

@@ -78,7 +78,7 @@ namespace DiamondShop.Data
         {
             get
             {
-                return _shell ??= new Repository.ShellRepository();
+                return _shell ??= new Repository.ShellRepository(_unitOfWorkContext);
             }
         }
 

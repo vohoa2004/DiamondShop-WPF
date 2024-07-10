@@ -18,8 +18,6 @@
 
             <MenuItem Header="Order" IsCheckable="False" FontSize="16" Click="Open_wOrder_Click">
             </MenuItem>
-            <MenuItem Header="Order Details" IsCheckable="False" FontSize="12" Click="Open_wOrderDetail_Click">
-            </MenuItem>
 
             <MenuItem Header="Category" IsCheckable="False" FontSize="16">
                 <MenuItem Header="Product Category" IsCheckable="False" FontSize="12" Click="Open_wProductCategory_Click">

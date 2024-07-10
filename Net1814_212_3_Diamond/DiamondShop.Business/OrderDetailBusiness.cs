@@ -2,6 +2,7 @@
 using DiamondShop.Common;
 using DiamondShop.Data;
 using DiamondShop.Data.Models;
+using DiamondShop.Data.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,11 @@ namespace DiamondShop.Business
     {
         Task<IBusinessResult> getAll();
         Task<IBusinessResult> GetById(string code);
-
+        Task<IBusinessResult> GetByOrderId(string orderId);
         Task<IBusinessResult> Save(Orderdetail orderdetail);
         Task<IBusinessResult> Update(Orderdetail orderdetail);
         Task<IBusinessResult> DeleteById(string code);
+        Task<IBusinessResult> SearchByFields(Orderdetail orderdetail);
     }
     public class OrderDetailBusiness : IOrderDetailBusiness
     {
@@ -76,6 +78,7 @@ namespace DiamondShop.Business
                 int result = await _unitOfWork.OrderDetailRepository.CreateAsync(Orderdetail);
                 if (result > 0)
                 {
+                    await UpdateOrderTotalPriceAsync(Orderdetail.OrderId);
                     return new BusinessResult(Const.SUCCESS_CREATE_CODE, Const.SUCCESS_CREATE_MSG);
                 }
                 else
@@ -98,6 +101,7 @@ namespace DiamondShop.Business
 
                 if (result > 0)
                 {
+                    await UpdateOrderTotalPriceAsync(Orderdetail.OrderId);
                     return new BusinessResult(Const.SUCCESS_UPDATE_CODE, Const.SUCCESS_UPDATE_MSG);
                 }
                 else
@@ -121,8 +125,10 @@ namespace DiamondShop.Business
                 {
                     //var result = await _OrderDetailRepository.RemoveAsync(Orderdetail);
                     var result = await _unitOfWork.OrderDetailRepository.RemoveAsync(Orderdetail);
+
                     if (result)
                     {
+                        await UpdateOrderTotalPriceAsync(Orderdetail.OrderId);
                         return new BusinessResult(Const.SUCCESS_DELETE_CODE, Const.SUCCESS_DELETE_MSG);
                     }
                     else
@@ -160,6 +166,40 @@ namespace DiamondShop.Business
             catch (Exception ex)
             {
                 return new BusinessResult(Const.ERROR_EXCEPTION, ex.Message);
+            }
+        }
+
+        public async Task<IBusinessResult> GetByOrderId(string orderId)
+        {
+
+            try
+            {
+                var orderDetails = await _unitOfWork.OrderDetailRepository.SearchByOrderIdAsync(orderId);
+
+                if (orderDetails == null)
+                {
+                    return new BusinessResult(Const.WARNING_NO_DATA_CODE, Const.WARNING_NO_DATA__MSG);
+                }
+                else
+                {
+                    return new BusinessResult(Const.SUCCESS_READ_CODE, Const.SUCCESS_READ_MSG, orderDetails);
+                }
+            }
+            catch (Exception ex)
+            {
+                return new BusinessResult(Const.ERROR_EXCEPTION, ex.Message);
+            }
+        }
+
+        private async Task UpdateOrderTotalPriceAsync(string orderId)
+        {
+            var order = await _unitOfWork.OrderRepository.GetByIdAsync(orderId);
+            if (order != null)
+            {
+                var orderDetails = await _unitOfWork.OrderDetailRepository.SearchByOrderIdAsync(orderId);
+                order.TotalPrice = orderDetails.Sum(od => od.LineTotal);
+                await _unitOfWork.OrderRepository.UpdateAsync(order);
+                await _unitOfWork.SaveChangesWithTransactionAsync();
             }
         }
 

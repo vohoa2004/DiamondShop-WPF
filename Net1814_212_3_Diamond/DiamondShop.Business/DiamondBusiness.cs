@@ -19,6 +19,8 @@ namespace DiamondShop.Business
         Task<IBusinessResult> Save(Diamond Diamond);
         Task<IBusinessResult> Update(Diamond Diamond);
         Task<IBusinessResult> DeleteById(string code);
+        Task<IBusinessResult> SearchAsync(Diamond criteria);
+
     }
     public class DiamondBusiness : IDiamondBusiness
     {
@@ -163,7 +165,6 @@ namespace DiamondShop.Business
         {
             try
             {
-                //var searchTerm = $"{orderdetail.OrderDetailId} {orderdetail.OrderId} {orderdetail.MainDiamondId} {orderdetail.ShellId} {orderdetail.SubDiamondId}".Trim();
 
                 var diamonds = await _unitOfWork.DiamondRepository.SearchAsync(criteria);
 
