@@ -3,7 +3,8 @@
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-.vscode/
+Net1814_212_3_Diamond/.vs
+
 
 # User-specific files
 *.suo
