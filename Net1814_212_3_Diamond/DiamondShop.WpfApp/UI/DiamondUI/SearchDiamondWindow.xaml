@@ -26,57 +26,55 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-
                     <!-- Row 0 -->
-                    <Label Content="Diamond Id" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtDiamondId" Height="25" Text="{Binding DiamondId, Mode=OneTime}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Name" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="txtName" Height="25" Text="{Binding Path=Name, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Color" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="txtColor" Height="25" Text="{Binding Path=Color, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Date Acquired" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <DatePicker x:Name="dpDateAcquired" Grid.Column="6" Margin="170,8,37,12" Grid.ColumnSpan="2" Text="{Binding Path=DateAcquired, Mode=TwoWay}"/>
-                    <Label Content="Cost" Grid.Row="0" Grid.Column="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="0" Grid.Column="9" x:Name="txtCost" Height="25" Text="{Binding Path=Cost, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Diamond Id" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtDiamondId" Height="25" Text="{Binding DiamondId, Mode=OneTime}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Name" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="txtName" Height="25" Text="{Binding Path=Name, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Color" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="txtColor" Height="25" Text="{Binding Path=Color, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Date Acquired" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <DatePicker x:Name="dpDateAcquired" Grid.Row="0" Grid.Column="7" Margin="5" Width="120" HorizontalAlignment="Left" Text="{Binding Path=DateAcquired, Mode=TwoWay}"/>
+                    <Label Content="Cost" Grid.Row="0" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="0" Grid.Column="9" x:Name="txtCost" Height="25" Text="{Binding Path=Cost, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
 
                     <!-- Row 1 -->
-                    <Label Content="Clarity" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtClarity" Height="25" Text="{Binding Path=Clarity, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Carat" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="txtCarat" Height="25" Text="{Binding Path=Carat, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Cut" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="1" Grid.Column="5" x:Name="txtCut" Height="25" Text="{Binding Path=Cut, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Certificate Scan" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="1" Grid.Column="7" x:Name="txtCertificateScan" Height="25" Text="{Binding Path=CertificateScan, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Certifying Authority" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="13" FontWeight="Bold"/>
-                    <TextBox Grid.Row="1" Grid.Column="9" x:Name="txtCertifyingAuthority" Height="25" Text="{Binding Path=CertifyingAuthority, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Clarity" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtClarity" Height="25" Text="{Binding Path=Clarity, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Carat" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="txtCarat" Height="25" Text="{Binding Path=Carat, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Cut" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="1" Grid.Column="5" x:Name="txtCut" Height="25" Text="{Binding Path=Cut, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Certificate Scan" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="1" Grid.Column="7" x:Name="txtCertificateScan" Height="25" Text="{Binding Path=CertificateScan, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Certifying Authority" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="1" Grid.Column="9" x:Name="txtCertifyingAuthority" Height="25" Text="{Binding Path=CertifyingAuthority, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
 
                     <!-- Row 2 -->
-                    <Label Content="Amount Available" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtAmountAvailable" Height="25" Text="{Binding Path=AmountAvailable, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Symmetry" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="2" Grid.Column="3" x:Name="txtSymmetry" Height="25" Text="{Binding Path=Symmetry, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Polish" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="2" Grid.Column="5" x:Name="txtPolish" Height="25" Text="{Binding Path=Polish, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Fluorescence" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <TextBox Grid.Row="2" Grid.Column="7" x:Name="txtFluorescence" Height="25" Text="{Binding Path=Fluorescence, Mode=TwoWay}" Margin="10" Width="120" HorizontalAlignment="Left"/>
-                    <Label Content="Category" Grid.Row="2" Grid.Column="8" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" FontSize="14" FontWeight="Bold"/>
-                    <ComboBox x:Name="cbCategory" Grid.Column="9" Margin="5,12,0,10" Grid.Row="2" Width="125"
-                        DisplayMemberPath="Name" 
-                        SelectedValuePath="CategoryId" 
-                        SelectedValue="{Binding CategoryId, Mode=OneWay}"
-                        />
+                    <Label Content="Amount Available" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtAmountAvailable" Height="25" Text="{Binding Path=AmountAvailable, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Symmetry" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="2" Grid.Column="3" x:Name="txtSymmetry" Height="25" Text="{Binding Path=Symmetry, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Polish" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="2" Grid.Column="5" x:Name="txtPolish" Height="25" Text="{Binding Path=Polish, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Fluorescence" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox Grid.Row="2" Grid.Column="7" x:Name="txtFluorescence" Height="25" Text="{Binding Path=Fluorescence, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <Label Content="Category" Grid.Row="2" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
+                    <ComboBox x:Name="cbCategory" Grid.Row="2" Grid.Column="9" Margin="5" Width="120" HorizontalAlignment="Left"
+DisplayMemberPath="Name" 
+SelectedValuePath="CategoryId" 
+SelectedValue="{Binding CategoryId, Mode=OneWay}"/>
                 </Grid>
             </GroupBox>
             <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right">
