@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiamondShop.WpfApp.UI.CustomerUI"
         mc:Ignorable="d"
-        Title="Customer" Height="450" Width="1200">
+        Title="Customer" Height="450" Width="1200" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Vertical">
             <GroupBox Header="Customer Form" Margin="10">
@@ -82,16 +82,16 @@ Command="{Binding SaveCommand}" Click="grdCustomer_ButtonSearch_Click" Backgroun
                         </TransformGroup>
                     </UIElement.RenderTransform>
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="CustomerId" Binding="{Binding CustomerId}" Width="60" Visibility="Visible"/>
+                        <DataGridTextColumn Header="Id" Binding="{Binding CustomerId}" Width="60" Visibility="Visible"/>
                         <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="170" IsReadOnly="True"/>
-                        <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="100" IsReadOnly="True"/>
-                        <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="90" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="90" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="180" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Phone Number" Binding="{Binding PhoneNumber}" Width="105" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Date Of Birth" Binding="{Binding DateOfBirth}" Width="110" IsReadOnly="True"/>
-                        <DataGridTextColumn Header="Gender" Binding="{Binding Gender}"  Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Gender" Binding="{Binding Gender}"  Width="60" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Country" Binding="{Binding Country}" Width="100" IsReadOnly="True"/>
-                        <DataGridTextColumn Header="Is Active" Binding="{Binding IsActive}" Width="100" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Is Active" Binding="{Binding IsActive}" Width="60" IsReadOnly="True"/>
                         <DataGridTemplateColumn Width="50">
                             <!-- Xem thong tin chi tiet cua mot diamond cu the, chi co label, khong co input textbox, makeup giao dien -->
                             <DataGridTemplateColumn.CellTemplate>

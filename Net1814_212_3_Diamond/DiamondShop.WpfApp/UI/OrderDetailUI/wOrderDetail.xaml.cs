@@ -34,10 +34,10 @@ namespace DiamondShop.WpfApp.UI.OrderDetailUI
                         ShellId = txtShellId.Text,
                         SubDiamondId = txtSubDiamondId.Text,
                         MainDiamondId = txtMainDiamondId.Text,
-                        LineTotal = decimal.Parse(txtLineTotal.Text),
+                        LineTotal = 0,
                         Quantity = int.Parse(txtQuantity.Text),
                         UnitWeight = decimal.Parse(txtUnitWeight.Text),
-                        UnitPrice = decimal.Parse(txtUnitPrice.Text),
+                        UnitPrice = 0,
                         DiscountPercentage = decimal.Parse(txtDiscountPercentage.Text),
                         Note = txtNote.Text
                     };
@@ -54,11 +54,11 @@ namespace DiamondShop.WpfApp.UI.OrderDetailUI
                     updateOrderdetail.ShellId = txtShellId.Text;
                     updateOrderdetail.SubDiamondId = txtSubDiamondId.Text;
                     updateOrderdetail.MainDiamondId = txtMainDiamondId.Text;
-                    updateOrderdetail.LineTotal = decimal.Parse(txtLineTotal.Text);
+                    //updateOrderdetail.LineTotal = decimal.Parse(txtLineTotal.Text);
                     updateOrderdetail.OrderDetailId = txtOrderDetailId.Text;
                     updateOrderdetail.Quantity = int.Parse(txtQuantity.Text);
                     updateOrderdetail.UnitWeight = decimal.Parse(txtUnitWeight.Text);
-                    updateOrderdetail.UnitPrice = decimal.Parse(txtUnitPrice.Text);
+                    //updateOrderdetail.UnitPrice = decimal.Parse(txtUnitPrice.Text);
                     updateOrderdetail.DiscountPercentage = decimal.Parse(txtDiscountPercentage.Text);
                     updateOrderdetail.Note = txtNote.Text;
                     var result = await _business.Update(updateOrderdetail);
