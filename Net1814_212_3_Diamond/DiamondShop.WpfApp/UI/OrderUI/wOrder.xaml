@@ -1,0 +1,111 @@
+﻿<Window x:Class="DiamondShop.WpfApp.UI.wOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiamondShop.WpfApp.UI"
+        mc:Ignorable="d"
+        Title="wOrder" Height="600" Width="1200">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Main Form Section -->
+        <GroupBox Header="Order Details" Margin="0,0,0,10" Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Labels and TextBoxes -->
+                <Label Content="Order ID:" Grid.Row="0" Grid.Column="0" VerticalContentAlignment="Center" Margin="5"/>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="OrderId" Text="{Binding Path=Order.OrderId, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Customer ID:" Grid.Row="0" Grid.Column="2" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                <TextBox Grid.Row="0" Grid.Column="3" x:Name="CustomerId" Text="{Binding Path=Order.CustomerId, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Date:" Grid.Row="0" Grid.Column="4" VerticalContentAlignment="Center" Margin="10,0,0,0"/>
+                <TextBox Grid.Row="0" Grid.Column="5" x:Name="Date" Text="{Binding Path=Diamond.Date, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Payment Method:" Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="PaymentMethod" Text="{Binding Path=Order.PaymentMethod, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Shipping Address:" Grid.Row="1" Grid.Column="2" VerticalContentAlignment="Center" Margin="10,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="3" x:Name="ShippingAddress" Text="{Binding Path=Order.ShippingAddress, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Total Price:" Grid.Row="1" Grid.Column="4" VerticalContentAlignment="Center" Margin="10,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="5" x:Name="TotalPrice" Text="{Binding Path=Order.TotalPrice, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Payment Status:" Grid.Row="2" Grid.Column="0" VerticalContentAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="PaymentStatus" Text="{Binding Path=Order.PaymentStatus, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Shipping Status:" Grid.Row="2" Grid.Column="2" VerticalContentAlignment="Center" Margin="10,10,0,0"/>
+                <TextBox Grid.Row="2" Grid.Column="3" x:Name="ShippingStatus" Text="{Binding Path=Order.ShippingStatus, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Promotion ID:" Grid.Row="2" Grid.Column="4" VerticalContentAlignment="Center" Margin="10,10,0,0"/>
+                <TextBox Grid.Row="2" Grid.Column="5" x:Name="PromotionId" Text="{Binding Path=Order.PromotionId, Mode=TwoWay}" Margin="5"/>
+
+                <Label Content="Order Description:" Grid.Row="3" Grid.Column="0" VerticalContentAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="5" x:Name="OrderDescription" Text="{Binding Path=Order.OrderDescription, Mode=TwoWay}" Margin="5"/>
+
+            </Grid>
+        </GroupBox>
+
+        <!-- Buttons Section -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button x:Name="ButtonSave" Content="Save" Height="30" Width="80" 
+                    Command="{Binding SaveCommand}" Click="ButtonSave_Click" Background="#FF9BCBFC" Margin="5"/>
+
+            <Button x:Name="ButtonCancel" Content="Cancel" Height="30" Width="80" 
+                    Command="{Binding ResetCommand}" Background="#FF9BCBFC" Margin="5"/>
+
+        </StackPanel>
+
+        <!-- DataGrid Section -->
+        <DataGrid x:Name="grdOrder" Grid.Row="2" AutoGenerateColumns="False" ItemsSource="{Binding Order}" 
+                  CanUserAddRows="False" Height="289" Width="Auto" Margin="0,20,0,0"
+                  MouseDoubleClick="Order_MouseDouble_Click" SelectionChanged="grdOrder_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" Width="100"/>
+                <DataGridTextColumn Header="Customer ID" Binding="{Binding CustomerId}" Width="100"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="80"/>
+                <DataGridTextColumn Header="Payment Method" Binding="{Binding PaymentMethod}" Width="120"/>
+                <DataGridTextColumn Header="Shipping Address" Binding="{Binding ShippingAddress}" Width="120"/>
+                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" Width="100"/>
+                <DataGridTextColumn Header="Payment Status" Binding="{Binding PaymentStatus}" Width="100"/>
+                <DataGridTextColumn Header="Shipping Status" Binding="{Binding ShippingStatus}" Width="100"/>
+                <DataGridTextColumn Header="Promotion ID" Binding="{Binding PromotionId}" Width="100"/>
+                <DataGridTextColumn Header="Order Description" Binding="{Binding OrderDescription}" Width="*"/>
+                <DataGridTemplateColumn Width="50">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="X" Command="{Binding OrderId}" Click="Order_ButtonDelete_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="50">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="View" CommandParameter="{Binding OrderId}" Click="grdOrderView_ButtonReport_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

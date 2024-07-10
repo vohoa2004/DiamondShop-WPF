@@ -19,6 +19,8 @@ namespace DiamondShop.Data
 
         private ShellRepository _shell;
 
+        private OrderRepository _order;
+
         private OrderDetailRepository _orderDetail;
 
         private Net1814_212_3_DiamondContext _unitOfWorkContext;
@@ -48,6 +50,14 @@ namespace DiamondShop.Data
             get
             {
                 return _customer ??= new Repository.CustomerRepository(_unitOfWorkContext);
+            }
+        }
+
+        public OrderRepository OrderRepository
+        {
+            get
+            {
+                return _order ??= new OrderRepository(_unitOfWorkContext);
             }
         }
 

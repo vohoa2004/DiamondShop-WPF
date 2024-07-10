@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DiamondShop.WpfApp.UI.ShellUI;
+using DiamondShop.WpfApp.UI;
 
 namespace DiamondShop.WpfApp
 {
@@ -59,6 +60,13 @@ namespace DiamondShop.WpfApp
             var p = new wShell();
             p.Owner = this;
             p.ShowDialog();
+        }
+
+        private void Open_wOrder_Click(object sender, RoutedEventArgs e)
+        {
+            var p = new wOrder();
+            p.Owner = this;
+            p.Show();
         }
     }
 

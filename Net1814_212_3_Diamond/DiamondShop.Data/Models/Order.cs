@@ -25,6 +25,8 @@ public partial class Order
 
     public string PromotionId { get; set; }
 
+    public string OrderDescription { get; set; }
+
     public virtual Customer Customer { get; set; }
 
     public virtual ICollection<Orderdetail> Orderdetails { get; set; } = new List<Orderdetail>();
