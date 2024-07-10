@@ -1,266 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderui\\worder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderui\\worder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderui\\worder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderui\\worder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderui\\worderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderui\\worderview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\searchdiamondwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\searchdiamondwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\orderdetailbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\orderdetailbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\orderbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\orderbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\diamondrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\diamondrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|e:\\semester_5\\prn212\\project\\net1814_212_3_diamond\\source\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomersearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomersearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderui\\worderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderui\\worderview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\diamondbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\diamondbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\searchdiamondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\searchdiamondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\promotionui\\wpromotionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\promotionui\\wpromotionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\promotionui\\wpromotionview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\promotionui\\wpromotionview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\promotionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\promotionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomersearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomersearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\diamondshop.wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\diamondshop.wpfapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshellsearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshellsearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\net1814_212_3_diamondcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\net1814_212_3_diamondcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshellsearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshellsearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshellreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshellreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshellreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshellreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\shellui\\wshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\shellui\\wshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategoryreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategoryreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategoryreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategoryreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategorysearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategorysearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategorysearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\productcategoryui\\wproductcategorysearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\shellrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\shellrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\shellbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\shellbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\categorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\categorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\diamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\diamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailsearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailsearch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailsearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailsearch.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.business\\customerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38D6CDC4-1C6F-4D1E-8E96-5F4BF494D724}|DiamondShop.Business\\DiamondShop.Business.csproj|solutionrelative:diamondshop.business\\customerbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetailreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomerreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomerreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomerreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\ui\\customerui\\wcustomerreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\customerui\\wcustomerreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamondeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.data\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\diamondui\\diamonddetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\promotionui\\wpromotion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\orderui\\worder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderui\\worder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.data\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70D9AD33-CDB5-4EAC-9913-33DF89B96D6E}|DiamondShop.Data\\DiamondShop.Data.csproj|solutionrelative:diamondshop.data\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\diamondshop.wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|c:\\users\\dell\\desktop\\diamondshop-wpf\\net1814_212_3_diamond\\diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92488DBD-6944-4E12-95F3-6643F0A84340}|DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj|solutionrelative:diamondshop.wpfapp\\ui\\orderdetailui\\worderdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -270,48 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "wOrderView.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:56:54.479Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "wOrderView.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrderView.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAuwEYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:58:12.408Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderDetailBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\OrderDetailBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\OrderDetailBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\OrderDetailBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\OrderDetailBusiness.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAAYwMQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:09:36.584Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -321,763 +73,169 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiamondEditWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:17:22.344Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "wOrder.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAWwCEAAABNAAAA",
+              "Title": "wCustomer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAlwNQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:57:47.835Z",
+              "WhenOpened": "2024-07-10T18:01:28.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "wOrder.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
+              "Title": "wCustomer.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:56:42.432Z",
+              "WhenOpened": "2024-07-10T18:00:57.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DiamondDetailsWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T02:34:01.218Z",
+              "DocumentIndex": 2,
+              "Title": "wCustomerReport.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T18:00:59.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "CategoryBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\CategoryBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\CategoryBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\CategoryBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\CategoryBusiness.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAuwKEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:28:17.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "wProductCategoryReport.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:32:23.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "wPromotion.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
+              "DocumentIndex": 4,
+              "Title": "DiamondDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T07:19:37.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Promotion.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Promotion.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Promotion.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Promotion.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Promotion.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:12:36.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "wOrderDetail.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
-              "ViewState": "AQIAAP0AAAAAAAAAAAAUwAsBAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:12:34.523Z",
+              "WhenOpened": "2024-07-10T18:00:45.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SearchDiamondWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAowIEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:05:04.193Z",
+              "Title": "wPromotion.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T18:00:31.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiamondEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T16:33:24.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OrderDetailRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCAAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:07:37.084Z",
+              "Title": "wOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderUI\\wOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T18:00:19.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\OrderRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:53:04.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\UnitOfWork.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\UnitOfWork.cs",
-              "RelativeToolTip": "DiamondShop.Data\\UnitOfWork.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAgwIMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:30:40.028Z",
+              "Title": "wOrderDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T16:27:45.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "OrderBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\OrderBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\OrderBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\OrderBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\OrderBusiness.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAFcAAAAMAAAA",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\App.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\App.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T17:47:36.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml",
+              "RelativeToolTip": "DiamondShop.WpfApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T16:35:54.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
+              "RelativeToolTip": "DiamondShop.Data\\Repository\\OrderDetailRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:54:15.921Z",
+              "WhenOpened": "2024-07-10T16:47:17.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\CategoryRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\CategoryRepository.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwCEAAAAbAAAA",
+              "Title": "Orderdetail.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Orderdetail.cs",
+              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Orderdetail.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Orderdetail.cs",
+              "RelativeToolTip": "DiamondShop.Data\\Models\\Orderdetail.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA/wBUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:31:35.595Z",
+              "WhenOpened": "2024-07-10T16:53:17.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "DiamondRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\DiamondRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\DiamondRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\DiamondRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\DiamondRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Title": "wOrderDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
+              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\DiamondShop-WPF\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
+              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAASwIEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:03:39.689Z",
+              "WhenOpened": "2024-07-10T16:36:35.429Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\MainWindow.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:57:13.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAA2wCkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T14:07:08.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "wOrderDetail.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:10:56.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "wCustomerSearch.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T12:40:26.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "wProductCategoryReport.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategoryReport.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:32:41.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Base\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Base\\GenericRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Base\\GenericRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Base\\GenericRepository.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAIwAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:51:50.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "wPromotion.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotion.xaml.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAmwKoAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:19:58.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "wCustomerSearch.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerSearch.xaml.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAowA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:09:07.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DiamondBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\DiamondBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\DiamondBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\DiamondBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\DiamondBusiness.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAADwv6YAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T03:08:16.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SearchDiamondWindow.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\SearchDiamondWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-29T13:49:37.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "wShell.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:36:10.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "wProductCategory.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:31:50.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "wProductCategory.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategory.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:31:21.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "wPromotionView.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T07:20:05.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "wPromotionView.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\PromotionUI\\wPromotionView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:22:12.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PromotionRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\PromotionRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\PromotionRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\PromotionRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\PromotionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:11:29.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PromotionBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\PromotionBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\PromotionBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\PromotionBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\PromotionBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:10:10.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Order.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Order.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Order.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Order.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:59:32.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "wProductCategorySearch.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:33:09.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "wProductCategorySearch.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ProductCategoryUI\\wProductCategorySearch.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:33:15.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ShellRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\ShellRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\ShellRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\ShellRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\ShellRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:30:55.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ShellBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\ShellBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\ShellBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\ShellBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\ShellBusiness.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:30:30.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DiamondShop.WpfApp",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj",
-              "RelativeToolTip": "DiamondShop.WpfApp\\DiamondShop.WpfApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-10T02:55:58.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Net1814_212_3_DiamondContext.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Net1814_212_3_DiamondContext.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Net1814_212_3_DiamondContext.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Net1814_212_3_DiamondContext.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Net1814_212_3_DiamondContext.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAIA9wCUAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:42:04.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\appsettings.json",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\appsettings.json",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\appsettings.json",
-              "RelativeToolTip": "DiamondShop.WpfApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-09T10:49:28.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "wShellSearch.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:36:56.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "wShellSearch.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellSearch.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:35:39.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "wShellReport.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:35:22.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "wShellReport.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShellReport.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T02:36:34.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "wShell.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\ShellUI\\wShell.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAD4vyQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:36:20.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "DiamondDetailsWindow.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondDetailsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T02:31:26.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "wCustomerReport.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:10:36.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "DiamondEditWindow.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\DiamondUI\\DiamondEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-06T09:42:54.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "CustomerBusiness.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\CustomerBusiness.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Business\\CustomerBusiness.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Business\\CustomerBusiness.cs",
-              "RelativeToolTip": "DiamondShop.Business\\CustomerBusiness.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAAKoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:09:20.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "wCustomer.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:08:22.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Productcategory.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Productcategory.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Productcategory.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Productcategory.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Productcategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T01:59:39.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Diamond.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Diamond.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Diamond.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Diamond.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Diamond.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwBkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:42:48.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "wCustomer.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomer.xaml.cs",
-              "ViewState": "AQIAABQBAAAAAAAAAAAMwBQBAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:08:33.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "wOrderDetailSearch.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:13:46.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "wOrderDetailSearch.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailSearch.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:13:09.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "wOrderDetailReport.xaml",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-09T11:12:48.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Repository\\CustomerRepository.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAjwH0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:07:03.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "wOrderDetailReport.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\OrderDetailUI\\wOrderDetailReport.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:13:20.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "wCustomerReport.xaml.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\UI\\CustomerUI\\wCustomerReport.xaml.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T11:08:50.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Orderdetail.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Orderdetail.cs",
-              "RelativeDocumentMoniker": "DiamondShop.Data\\Models\\Orderdetail.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.Data\\Models\\Orderdetail.cs",
-              "RelativeToolTip": "DiamondShop.Data\\Models\\Orderdetail.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA3wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:42:51.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "DiamondShop.WpfApp\\AssemblyInfo.cs",
-              "ToolTip": "E:\\SEMESTER_5\\PRN212\\Project\\Net1814_212_3_Diamond\\Source\\Net1814_212_3_Diamond\\DiamondShop.WpfApp\\AssemblyInfo.cs",
-              "RelativeToolTip": "DiamondShop.WpfApp\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T02:13:56.575Z"
             }
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 486,
           "SelectedChildIndex": -1,
           "Children": [
             {

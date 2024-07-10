@@ -11,12 +11,51 @@ namespace DiamondShop.Data.Repository
 {
     public class OrderDetailRepository : GenericRepository<Orderdetail>
     {
+        private readonly UnitOfWork _unitOfWork;
         public OrderDetailRepository()
         {
         }
         public OrderDetailRepository(Net1814_212_3_DiamondContext context) => _context = context;
 
-        public async Task<List<Orderdetail>> SearchByOrderIdAsync(string orderId)
+		public async Task<decimal> CalculateUnitPrice(Orderdetail orderDetail)
+		{
+            decimal unitPrice = 0;
+            // Fetch necessary data from other entities using the unit of work
+			var mainDiamond = await _unitOfWork.DiamondRepository.GetByIdAsync(orderDetail.MainDiamondId);
+
+			var subDiamond = await _unitOfWork.DiamondRepository.GetByIdAsync(orderDetail.SubDiamondId);
+
+            var shell = await _unitOfWork.ShellRepository.GetByIdAsync(orderDetail.ShellId);
+
+            unitPrice = (decimal)(mainDiamond.Cost + subDiamond.Cost + shell.Price);
+            return unitPrice;
+		}
+
+		public async Task<List<Orderdetail>> GetAllAsync()
+		{
+			return await _context.Set<Orderdetail>().ToListAsync();
+		}
+
+		public async Task<int> CreateAsync(Orderdetail entity)
+		{
+            entity.UnitPrice = await CalculateUnitPrice(entity);
+            entity.LineTotal = entity.UnitPrice * entity.Quantity * (entity.DiscountPercentage / 100);
+            _context.Add(entity);
+			return await _context.SaveChangesAsync();
+		}
+
+		public async Task<int> UpdateAsync(Orderdetail entity)
+		{
+			entity.UnitPrice = await CalculateUnitPrice(entity);
+			entity.LineTotal = entity.UnitPrice * entity.Quantity * (entity.DiscountPercentage/100);
+			var tracker = _context.Attach(entity);
+			tracker.State = EntityState.Modified;
+
+			return await _context.SaveChangesAsync();
+		}
+
+
+		public async Task<List<Orderdetail>> SearchByOrderIdAsync(string orderId)
         {
             using (var context = new Net1814_212_3_DiamondContext())
             {

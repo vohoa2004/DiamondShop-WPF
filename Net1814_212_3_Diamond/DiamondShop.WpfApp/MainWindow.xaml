@@ -5,10 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiamondShop.WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Menu Height="30" Name="menu1" Margin="0,0,0,0" VerticalAlignment="Top" BorderThickness="2" FontSize="16" FontWeight="Bold">
-            <!--<MenuItem Header="DiamondShop" IsCheckable="False" FontSize="16">-->
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="0.5,0">
+                <GradientStop Color="#4CD5DEE2" Offset="0"/>
+                <GradientStop Color="#4CF1FEF5" Offset="0.996"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!--<Menu Height="30" Name="menu1" Margin="0,0,0,0" VerticalAlignment="Top" BorderThickness="2" FontSize="16" FontWeight="Bold">
+            -->
+        <!--<MenuItem Header="DiamondShop" IsCheckable="False" FontSize="16">-->
+        <!--
             <MenuItem Header="Diamond" IsCheckable="False" FontSize="16" Click="Open_wDiamond_Click">
 
             </MenuItem>
@@ -19,23 +28,63 @@
             <MenuItem Header="Order" IsCheckable="False" FontSize="16" Click="Open_wOrder_Click">
             </MenuItem>
 
-            <MenuItem Header="Category" IsCheckable="False" FontSize="16">
-                <MenuItem Header="Product Category" IsCheckable="False" FontSize="12" Click="Open_wProductCategory_Click">
+            <MenuItem Header="Category" IsCheckable="False" FontSize="16" Click="Open_wProductCategory_Click"/>
 
-                </MenuItem>
-            </MenuItem>
-            
-            <MenuItem Header="Shell" IsCheckable="False" FontSize="16">
-                <MenuItem Header="Diamond Shell" IsCheckable="False" FontSize="12" Click="Open_wShell_Click">
-                </MenuItem>
-            </MenuItem>
+
+            <MenuItem Header="Shell" IsCheckable="False" FontSize="16" Click="Open_wShell_Click"/>
+
 
             <MenuItem Header="Promotion" IsCheckable="False" FontSize="16">
                 <MenuItem Header="Promotion" IsCheckable="False" FontSize="12" Click="Open_wPromotion_Click">
                 </MenuItem>
             </MenuItem>
 
-            <!--</MenuItem>-->
-        </Menu>
+            -->
+        <!--</MenuItem>-->
+        <!--
+        </Menu>-->
+        <Label Content="Diamond Shop" HorizontalAlignment="Center" Margin="0,98,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Modern No. 20" Foreground="Black"/>
+        <Button Content="Diamond" HorizontalAlignment="Center" Height="44" Margin="0,217,0,0" VerticalAlignment="Top" Width="160" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wDiamond_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Shell" HorizontalAlignment="Left" Height="44" Margin="129,217,0,0" VerticalAlignment="Top" Width="159" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wShell_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Category" Height="44" Margin="513,217,129,0" VerticalAlignment="Top" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wProductCategory_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Order" HorizontalAlignment="Center" Height="44" Margin="0,287,0,0" VerticalAlignment="Top" Width="160" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wOrder_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Customer" HorizontalAlignment="Left" Height="44" Margin="129,287,0,0" VerticalAlignment="Top" Width="159" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wCustomer_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Promotion" Height="44" Margin="513,287,129,0" VerticalAlignment="Top" Background="#FFF7F2F2" FontFamily="Cascadia Code SemiLight" FontSize="20" FontWeight="Bold" Click="Open_wPromotion_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>
