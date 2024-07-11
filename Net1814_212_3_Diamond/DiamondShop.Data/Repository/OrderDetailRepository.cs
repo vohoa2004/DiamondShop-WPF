@@ -11,7 +11,7 @@ namespace DiamondShop.Data.Repository
 {
     public class OrderDetailRepository : GenericRepository<Orderdetail>
     {
-        private readonly UnitOfWork _unitOfWork;
+        private UnitOfWork _unitOfWork;
         public OrderDetailRepository()
         {
         }
@@ -19,6 +19,7 @@ namespace DiamondShop.Data.Repository
 
 		public async Task<decimal> CalculateUnitPrice(Orderdetail orderDetail)
 		{
+            _unitOfWork = new UnitOfWork();
             decimal unitPrice = 0;
             // Fetch necessary data from other entities using the unit of work
 			var mainDiamond = await _unitOfWork.DiamondRepository.GetByIdAsync(orderDetail.MainDiamondId);
@@ -39,7 +40,7 @@ namespace DiamondShop.Data.Repository
 		public async Task<int> CreateAsync(Orderdetail entity)
 		{
             entity.UnitPrice = await CalculateUnitPrice(entity);
-            entity.LineTotal = entity.UnitPrice * entity.Quantity * (entity.DiscountPercentage / 100);
+            entity.LineTotal = entity.UnitPrice * entity.Quantity * (1 - entity.DiscountPercentage / 100);
             _context.Add(entity);
 			return await _context.SaveChangesAsync();
 		}
@@ -47,7 +48,7 @@ namespace DiamondShop.Data.Repository
 		public async Task<int> UpdateAsync(Orderdetail entity)
 		{
 			entity.UnitPrice = await CalculateUnitPrice(entity);
-			entity.LineTotal = entity.UnitPrice * entity.Quantity * (entity.DiscountPercentage/100);
+			entity.LineTotal = entity.UnitPrice * entity.Quantity * (1 - entity.DiscountPercentage/100);
 			var tracker = _context.Attach(entity);
 			tracker.State = EntityState.Modified;
 

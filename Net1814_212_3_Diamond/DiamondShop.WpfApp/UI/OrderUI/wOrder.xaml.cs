@@ -155,8 +155,9 @@ namespace DiamondShop.WpfApp.UI
             {
                 var report = new wOrderView(orderId);
                 report.Owner = this;
-                report.Show();
+                report.ShowDialog();
             }
+            LoadGrdOrder();
         }
 
         private async void Order_MouseDouble_Click(object sender, RoutedEventArgs e)
