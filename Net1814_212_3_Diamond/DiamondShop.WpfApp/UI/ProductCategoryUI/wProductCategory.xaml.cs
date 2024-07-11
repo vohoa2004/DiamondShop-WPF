@@ -236,6 +236,7 @@ namespace DiamondShop.WpfApp.UI.ProductCategoryUI
 							PromotionalTagline.Text = item.PromotionalTagline;
 							ProductAmount.Text = item.ProductAmount.ToString();
 							FeatureTrue.IsChecked = (bool)item.IsFeatured ? true : false;
+							FeatureFalse.IsChecked = (bool)item.IsFeatured ? false : true;
 							CareInstruction.Text = item.CareInstructions;
 							MaximumPrice.Text = item.MaximumPrice.ToString();
 							MinimumPrice.Text = item.MinimumPrice.ToString();
