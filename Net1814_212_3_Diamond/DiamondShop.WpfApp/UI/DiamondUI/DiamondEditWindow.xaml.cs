@@ -104,9 +104,12 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
             diamond.Fluorescence = txtFluorescence.Text;
             diamond.Polish = txtPolish.Text;
             diamond.CategoryId = cbCategory.SelectedValue.ToString(); // Assign CategoryId only
-            decimal? cost = string.IsNullOrEmpty(txtCost.Text) ? null : decimal.TryParse(txtCost.Text, out decimal costParsed) ? costParsed : throw new FormatException("Invalid cost format");
-            decimal? carat = string.IsNullOrEmpty(txtCarat.Text) ? null : decimal.TryParse(txtCarat.Text, out decimal caratParsed) ? caratParsed : throw new FormatException("Invalid carat format");
-            int? amountAvailable = string.IsNullOrEmpty(txtAmountAvailable.Text) ? null : int.TryParse(txtAmountAvailable.Text, out int amountParsed) ? amountParsed : throw new FormatException("Invalid amount available format");
+            decimal? cost = string.IsNullOrEmpty(txtCost.Text) ? 0 : decimal.TryParse(txtCost.Text, out decimal costParsed) ? costParsed : throw new FormatException("Invalid cost format");
+            decimal? carat = string.IsNullOrEmpty(txtCarat.Text) ? 0 : decimal.TryParse(txtCarat.Text, out decimal caratParsed) ? caratParsed : throw new FormatException("Invalid carat format");
+            int? amountAvailable = string.IsNullOrEmpty(txtAmountAvailable.Text) ? 0 : int.TryParse(txtAmountAvailable.Text, out int amountParsed) ? amountParsed : throw new FormatException("Invalid amount available format");
+            diamond.Cost = cost;
+            diamond.Carat = carat; 
+            diamond.AmountAvailable = amountAvailable;
         }
 
 
