@@ -71,30 +71,23 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
             }
         }
 
-        private async void grdDiamond_ButtonViewDetails_Click(object sender, RoutedEventArgs e)
+        private void grdDiamond_ButtonViewDetails_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            string? diamondId = button?.CommandParameter.ToString();
-            if (!string.IsNullOrEmpty(diamondId))
+            if (button.DataContext is Diamond diamond)
             {
-                var result = await _diamondBusiness.GetById(diamondId); // Sử dụng await ở đây
-                Diamond? diamond = result.Data as Diamond;
-                if (diamond != null)
+                DiamondDetailsWindow w = new DiamondDetailsWindow
                 {
-                    DiamondDetailsWindow w = new DiamondDetailsWindow();
-                    w.SelectedDiamond = diamond;
-                    w.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid binding!");
-                }
+                    SelectedDiamond = diamond // Set DataContext for binding
+                };
+                w.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Invalid binding!");
             }
         }
+
 
         private void ButtonCancel_Click(object sender, RoutedEventArgs e)
         {
@@ -114,7 +107,6 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
             txtPolish.Text = string.Empty;
             cbCategory.Text = string.Empty;
 
-            LoadGrdDiamond();
         }
         private void grdDiamond_MouseDouble_Click(object sender, RoutedEventArgs e)
         {

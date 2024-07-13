@@ -39,42 +39,41 @@
                     </Grid.ColumnDefinitions>
                     <!-- Row 0 -->
                     <Label Content="Diamond Id" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtDiamondId" Height="25" Text="{Binding DiamondId, Mode=OneTime}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtDiamondId" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Name" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="txtName" Height="25" Text="{Binding Path=Name, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="txtName" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Color" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="txtColor" Height="25" Text="{Binding Path=Color, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="0" Grid.Column="5" x:Name="txtColor" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Date Acquired" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <DatePicker x:Name="dpDateAcquired" Grid.Row="0" Grid.Column="7" Margin="5" Width="120" HorizontalAlignment="Left" Text="{Binding Path=DateAcquired, Mode=TwoWay}"/>
+                    <DatePicker x:Name="dpDateAcquired" Grid.Row="0" Grid.Column="7" Margin="5" Width="120" HorizontalAlignment="Left" />
                     <Label Content="Cost" Grid.Row="0" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="0" Grid.Column="9" x:Name="txtCost" Height="25" Text="{Binding Path=Cost, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="0" Grid.Column="9" x:Name="txtCost" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
 
                     <!-- Row 1 -->
                     <Label Content="Clarity" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtClarity" Height="25" Text="{Binding Path=Clarity, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtClarity" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Carat" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="txtCarat" Height="25" Text="{Binding Path=Carat, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="1" Grid.Column="3" x:Name="txtCarat" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Cut" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="1" Grid.Column="5" x:Name="txtCut" Height="25" Text="{Binding Path=Cut, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="1" Grid.Column="5" x:Name="txtCut" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Certificate Scan" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="1" Grid.Column="7" x:Name="txtCertificateScan" Height="25" Text="{Binding Path=CertificateScan, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="1" Grid.Column="7" x:Name="txtCertificateScan" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Certifying Authority" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="1" Grid.Column="9" x:Name="txtCertifyingAuthority" Height="25" Text="{Binding Path=CertifyingAuthority, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="1" Grid.Column="9" x:Name="txtCertifyingAuthority" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
 
                     <!-- Row 2 -->
                     <Label Content="Amount Available" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtAmountAvailable" Height="25" Text="{Binding Path=AmountAvailable, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtAmountAvailable" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Symmetry" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="2" Grid.Column="3" x:Name="txtSymmetry" Height="25" Text="{Binding Path=Symmetry, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="2" Grid.Column="3" x:Name="txtSymmetry" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Polish" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="2" Grid.Column="5" x:Name="txtPolish" Height="25" Text="{Binding Path=Polish, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="2" Grid.Column="5" x:Name="txtPolish" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Fluorescence" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox Grid.Row="2" Grid.Column="7" x:Name="txtFluorescence" Height="25" Text="{Binding Path=Fluorescence, Mode=TwoWay}" Margin="5" Width="120" HorizontalAlignment="Left"/>
+                    <TextBox Grid.Row="2" Grid.Column="7" x:Name="txtFluorescence" Height="25" Margin="5" Width="120" HorizontalAlignment="Left"/>
                     <Label Content="Category" Grid.Row="2" Grid.Column="8" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5"/>
                     <ComboBox x:Name="cbCategory" Grid.Row="2" Grid.Column="9" Margin="5" Width="120" HorizontalAlignment="Left"
-DisplayMemberPath="Name" 
-SelectedValuePath="CategoryId" 
-SelectedValue="{Binding CategoryId, Mode=OneWay}"/>
+                        DisplayMemberPath="Name" 
+                        SelectedValuePath="CategoryId" />
                 </Grid>
             </GroupBox>
             <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -113,13 +112,13 @@ SelectedValue="{Binding CategoryId, Mode=OneWay}"/>
                         <DataGridTextColumn Header="Polish" Binding="{Binding Polish}" Width="150" />
                         <DataGridTextColumn Header="Symmetry" Binding="{Binding Symmetry}" Width="150" />
                         <DataGridTextColumn Header="Fluorescence" Binding="{Binding Fluorescence}" Width="150" />
-                        <DataGridTextColumn Header="CategoryId" Binding="{Binding CategoryId, Mode=TwoWay}" Width="80" />
-                        <DataGridTextColumn Header="CategoryName" Binding="{Binding Category.Name, Mode=TwoWay}" Width="120" />
+                        <DataGridTextColumn Header="CategoryId" Binding="{Binding CategoryId}" Width="80" />
+                        <DataGridTextColumn Header="CategoryName" Binding="{Binding Category.Name}" Width="120" />
                         <DataGridTemplateColumn Width="50">
                             <!-- Xem thong tin chi tiet cua mot diamond cu the, chi co label, khong co input textbox, makeup giao dien -->
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Button Content="View" x:Name="ButtonViewDetails" Background="Green" Foreground="White" CommandParameter="{Binding DiamondId}" Click="grdDiamond_ButtonViewDetails_Click"/>
+                                    <Button Content="View" x:Name="ButtonViewDetails" Background="Green" Foreground="White" Click="grdDiamond_ButtonViewDetails_Click"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
