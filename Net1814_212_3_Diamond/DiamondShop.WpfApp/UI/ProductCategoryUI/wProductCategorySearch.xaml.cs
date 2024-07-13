@@ -57,19 +57,6 @@ namespace DiamondShop.WpfApp.UI.ProductCategoryUI
 
 				this.LoadGrdCategory(result.Data as List<Productcategory>);
 
-				// Clear all the text boxes
-				CategoryId.Text = string.Empty;
-				Name.Text = string.Empty;
-				Description.Text = string.Empty;
-				IconUrl.Text = string.Empty;
-				PromotionImageUrl.Text = string.Empty;
-				PromotionalTagline.Text = string.Empty;
-				ProductAmount.Text = string.Empty;
-				FeatureTrue.IsChecked = false;
-				CareInstruction.Text = string.Empty;
-				MaximumPrice.Text = string.Empty;
-				MinimumPrice.Text = string.Empty;
-
 			}
 			catch (Exception ex)
 			{
@@ -165,5 +152,24 @@ namespace DiamondShop.WpfApp.UI.ProductCategoryUI
 			addScreen.Show();
 			this.Close();
 		}
-	}
+
+		private void ButtonClear_Click(object sender, RoutedEventArgs e)
+		{
+			// Clear all the text boxes
+			CategoryId.Text = string.Empty;
+			Name.Text = string.Empty;
+			Description.Text = string.Empty;
+			IconUrl.Text = string.Empty;
+			PromotionImageUrl.Text = string.Empty;
+			PromotionalTagline.Text = string.Empty;
+			ProductAmount.Text = string.Empty;
+			FeatureTrue.IsChecked = false;
+			CareInstruction.Text = string.Empty;
+			MaximumPrice.Text = string.Empty;
+			MinimumPrice.Text = string.Empty;
+
+			this.LoadGrdCategory();
+
+		}
+    }
 }
