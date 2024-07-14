@@ -20,7 +20,7 @@ namespace DiamondShop.Data.Repository
         {
             var query = _context.Set<Productcategory>().AsQueryable();
             if (!string.IsNullOrEmpty(product.CategoryId))
-                query = query.Where(c => c.CategoryId == product.CategoryId);
+                query = query.Where(c => c.CategoryId.Contains(product.CategoryId));
 
             if (!string.IsNullOrEmpty(product.Name))
                 query = query.Where(c => c.Name.Contains(product.Name));

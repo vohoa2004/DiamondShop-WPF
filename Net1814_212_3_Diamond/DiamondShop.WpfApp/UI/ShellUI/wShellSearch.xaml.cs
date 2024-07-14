@@ -138,18 +138,7 @@ namespace DiamondShop.WpfApp.UI.ShellUI
 
 				this.LoadGrdShell(result.Data as List<Shell>);
 
-				// Clear all the text boxes
-				txtShellId.Text = string.Empty;
-				txtName.Text = string.Empty;
-				txtPrice.Text = string.Empty;
-				txtAmountAvailable.Text = string.Empty;
-				txtDescription.Text = string.Empty;
-				txtWeight.Text = string.Empty;
-				txtTotalDiamonds.Text = string.Empty;
-				txtImageUrl.Text = string.Empty;
-				txtMetal.Text = string.Empty;
-				txtDiamondShape.Text = string.Empty;
-				ProductCategoryComboBox.SelectedValue = 0;
+				
 			}
 			catch (Exception ex)
 			{
@@ -163,5 +152,24 @@ namespace DiamondShop.WpfApp.UI.ShellUI
 			add.Show();
 			this.Close();
 		}
-	}
+
+		private void ButtonClear_Click(object sender, RoutedEventArgs e)
+		{
+			// Clear all the text boxes
+			txtShellId.Text = string.Empty;
+			txtName.Text = string.Empty;
+			txtPrice.Text = string.Empty;
+			txtAmountAvailable.Text = string.Empty;
+			txtDescription.Text = string.Empty;
+			txtWeight.Text = string.Empty;
+			txtTotalDiamonds.Text = string.Empty;
+			txtImageUrl.Text = string.Empty;
+			txtMetal.Text = string.Empty;
+			txtDiamondShape.Text = string.Empty;
+			ProductCategoryComboBox.SelectedValue = 0;
+
+			this.LoadGrdShell();
+
+		}
+    }
 }

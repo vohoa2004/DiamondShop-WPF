@@ -19,20 +19,20 @@ namespace DiamondShop.Data.Repository
 		///
 		public async Task<List<Shell>> GetAllAsync()
 		{
-			return await _context.Set<Shell>().Include("Category").ToListAsync();
+			return await _context.Set<Shell>().Include(s => s.Category).ToListAsync();
 		}
 
 		public async Task<Shell> GetByIdAsync(string id)
 		{
-			return await _context.Set<Shell>().Include("Category").FirstOrDefaultAsync(s => s.ShellId == id);
+			return await _context.Set<Shell>().Include(s => s.Category).FirstOrDefaultAsync(s => s.ShellId == id);
 		}
 
 		public async Task<List<Shell>> SearchByFieldsAsync(
 		Shell item)
 		{
-			var query = _context.Set<Shell>().Include("Category").AsQueryable();
+			var query = _context.Set<Shell>().Include(s => s.Category).AsQueryable();
 			if (!string.IsNullOrEmpty(item.ShellId))
-				query = query.Where(c => c.ShellId == item.ShellId);
+				query = query.Where(c => c.ShellId.Contains(item.ShellId));
 
 			if (!string.IsNullOrEmpty(item.Name))
 				query = query.Where(c => c.Name.Contains(item.Name));

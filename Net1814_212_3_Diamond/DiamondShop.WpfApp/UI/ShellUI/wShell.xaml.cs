@@ -75,7 +75,7 @@ namespace DiamondShop.WpfApp.UI.ShellUI
 				else // cai tien: ton tai thi update
 				{
 					//ButtonUpdate_Click(sender, e);
-					Shell updatedShell = _business.GetById(txtShellId.Text).Result.Data as Shell;
+					var updatedShell = item.Data as Shell;
 					updatedShell.Name = txtName.Text;
 					updatedShell.Price = decimal.Parse(txtPrice.Text);
 					updatedShell.AmountAvailable = int.Parse(txtAmountAvailable.Text);
