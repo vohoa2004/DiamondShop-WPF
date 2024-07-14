@@ -195,3 +195,4 @@ git_stats/*
 StyleCop.Cache
 bin
 obj
+/Net1814_212_3_Diamond/DiamondShop.WpfApp/appsettings.json
