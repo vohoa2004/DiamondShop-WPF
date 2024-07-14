@@ -146,16 +146,13 @@ namespace DiamondShop.Business
                 return new BusinessResult(Const.ERROR_EXCEPTION, ex.Message);
             }
         }
-        public async Task<IBusinessResult> SearchByFields(
-            Customer customerModel)
+        public async Task<IBusinessResult> SearchByFields(Customer customerModel)
         {
             try
             {
-
-                //var ProductCategory = await _ProductCategoryRepository.GetByIdAsync(code);
                 var customer = await _unitOfWork.CustomerRepository.SearchByFieldsAsync(customerModel);
 
-                if (customer == null)
+                if (customer == null || !customer.Any())
                 {
                     return new BusinessResult(Const.WARNING_NO_DATA_CODE, Const.WARNING_NO_DATA__MSG);
                 }
