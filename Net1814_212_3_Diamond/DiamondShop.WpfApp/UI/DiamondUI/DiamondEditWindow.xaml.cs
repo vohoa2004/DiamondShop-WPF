@@ -66,6 +66,12 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
             Diamond diamond = new Diamond();
             try
             {
+                var item = await _diamondBusiness.GetById(txtDiamondId.Text);
+                if (SelectedDiamond == null && item != null)
+                {
+                    MessageBox.Show("Cannot insert new diamond with the same ID");
+                    return;
+                }
                 fillTextBoxesToFields(diamond);
 
                 if (SelectedDiamond == null)
@@ -92,6 +98,7 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
         private void fillTextBoxesToFields(Diamond diamond)
         {
             // add validations
+            
             diamond.DiamondId = txtDiamondId.Text;
             diamond.Name = txtName.Text;
             diamond.Color = txtColor.Text;
