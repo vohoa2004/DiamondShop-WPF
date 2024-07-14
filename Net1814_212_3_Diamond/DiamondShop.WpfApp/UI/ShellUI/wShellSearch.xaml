@@ -77,10 +77,10 @@ Command="{Binding ResetCommand}" Background="#FF680F0F" Foreground="White" Click
 
 
                 <StackPanel Height="40" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1" >
-                    <Button x:Name="ButtonSearch" Content="Search" Height="30" Width="80" 
+                    <!--<Button x:Name="ButtonSearch" Content="Search" Height="30" Width="80" 
     Command="{Binding SaveCommand}" Click="ButtonSearch_Click" Background="Green" Foreground="White" Margin="5,0,5,0"/>
                     <Button x:Name="ButtonAdd" Content="Add Shell" Height="30" Width="90"
-        Command="{Binding SaveCommand}" Click="ButtonAdd_Click" Background="Orange" Foreground="White" Margin="5,0,5,0" />
+        Command="{Binding SaveCommand}" Click="ButtonAdd_Click" Background="Orange" Foreground="White" Margin="5,0,5,0" />-->
                     <Button x:Name="ButtonCancel" Content="Cancel" Height="30" Width="80" Command="{Binding ResetCommand}" Margin="5,0,10,0" Click="ButtonCancel_Click" RenderTransformOrigin="0.718,10.343"/>
                 </StackPanel>
             </Grid>

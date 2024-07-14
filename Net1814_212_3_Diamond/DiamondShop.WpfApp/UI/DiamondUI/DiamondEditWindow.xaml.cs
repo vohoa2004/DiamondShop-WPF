@@ -66,16 +66,16 @@ namespace DiamondShop.WpfApp.UI.DiamondUI
             Diamond diamond = new Diamond();
             try
             {
-                var item = await _diamondBusiness.GetById(txtDiamondId.Text);
-                if (SelectedDiamond == null && item != null)
-                {
-                    MessageBox.Show("Cannot insert new diamond with the same ID");
-                    return;
-                }
                 fillTextBoxesToFields(diamond);
 
                 if (SelectedDiamond == null)
                 {
+                    var item = await _diamondBusiness.GetById(txtDiamondId.Text);
+                    if (item.Status == 1)
+                    {
+                        MessageBox.Show("Cannot insert new diamond with the existed ID");
+                        return;
+                    }
                     await _diamondBusiness.Save(diamond);
                     MessageBox.Show("Saved new diamond successfully!");
                     this.DialogResult = true;
