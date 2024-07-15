@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.Metrics;
 using System.Net;
+using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 using DiamondShop.Business;
@@ -264,7 +265,7 @@ namespace DiamondShop.WpfApp.UI.CustomerUI
 
         private void LoadGrdCustomer(List<Customer> list)
         {
-            if (list.Count > 0)
+            if (list != null && list.Count > 0)
             {
                 grdCustomer.ItemsSource = list;
             }
