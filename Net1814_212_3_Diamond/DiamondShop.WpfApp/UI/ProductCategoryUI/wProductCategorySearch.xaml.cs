@@ -46,8 +46,8 @@ namespace DiamondShop.WpfApp.UI.ProductCategoryUI
 					PromotionalTagline = PromotionalTagline.Text,
 					ProductAmount = string.IsNullOrEmpty(ProductAmount.Text.Trim())?-1:int.Parse(ProductAmount.Text),
 					CareInstructions = CareInstruction.Text,
-					MaximumPrice = string.IsNullOrEmpty(MaximumPrice.Text.Trim()) ? 0 : decimal.Parse(MaximumPrice.Text),
-					MinimumPrice = string.IsNullOrEmpty(MinimumPrice.Text.Trim()) ? 0 : decimal.Parse(MinimumPrice.Text),
+					MaximumPrice = string.IsNullOrEmpty(MaximumPrice.Text.Trim()) ? -1 : decimal.Parse(MaximumPrice.Text),
+					MinimumPrice = string.IsNullOrEmpty(MinimumPrice.Text.Trim()) ? -1 : decimal.Parse(MinimumPrice.Text),
 				};
 
 

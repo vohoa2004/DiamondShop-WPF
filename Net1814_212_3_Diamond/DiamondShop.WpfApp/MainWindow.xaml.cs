@@ -43,14 +43,14 @@ namespace DiamondShop.WpfApp
 
         private void Open_wProductCategory_Click(object sender, RoutedEventArgs e)
         {
-            var p = new wProductCategory();
+            var p = new wProductCategorySearch();
             p.Owner = this;
             p.ShowDialog();
         }
 
         private void Open_wShell_Click(object sender, RoutedEventArgs e)
         {
-            var p = new wShell();
+            var p = new wShellSearch();
             p.Owner = this;
             p.ShowDialog();
         }

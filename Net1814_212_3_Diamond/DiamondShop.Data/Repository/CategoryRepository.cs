@@ -46,10 +46,10 @@ namespace DiamondShop.Data.Repository
             if (!string.IsNullOrEmpty(product.CareInstructions))
                 query = query.Where(c => c.CareInstructions.Contains(product.CareInstructions));
 
-            if (product.MinimumPrice != 0)
+            if (product.MinimumPrice != -1)
                 query = query.Where(c => c.MinimumPrice >= product.MinimumPrice);
 
-            if (product.MaximumPrice != 0)
+            if (product.MaximumPrice != -1)
                 query = query.Where(c => c.MaximumPrice <= product.MaximumPrice);
 
             return await query.ToListAsync();

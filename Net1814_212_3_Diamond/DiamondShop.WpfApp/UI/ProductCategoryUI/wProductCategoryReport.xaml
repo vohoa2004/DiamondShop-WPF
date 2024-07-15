@@ -104,7 +104,7 @@
                     <Label Content="Instruction" Grid.Column="0" Grid.Row="8" FontWeight="DemiBold" Width ="90" HorizontalContentAlignment="Right" Margin="0,0,10,0"  VerticalAlignment="Center" />
 
                     <StackPanel Grid.Column="1" Grid.Row="8"   VerticalAlignment="Center">
-                        <TextBlock Name="CareInstruction" VerticalAlignment="Center"/>
+                        <TextBlock Name="CareInstruction" VerticalAlignment="Center" TextWrapping="Wrap" MaxWidth="200" MaxHeight="40"/>
                     </StackPanel>
 
                     <Separator Height="0.5" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="8" VerticalAlignment="Bottom" Margin="25, 40, 90,0"></Separator>
