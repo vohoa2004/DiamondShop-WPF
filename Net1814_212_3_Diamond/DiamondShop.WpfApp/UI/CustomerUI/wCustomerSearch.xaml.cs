@@ -34,7 +34,7 @@ namespace DiamondShop.WpfApp.UI.CustomerUI
                     Address = Address.Text,
                     PhoneNumber = PhoneNumber.Text,
                     DateOfBirth = string.IsNullOrEmpty(DateOfBirth.Text.Trim()) ? (DateOnly?)null : DateOnly.Parse(DateOfBirth.Text),
-                    IsActive = IsActive.IsChecked,
+                    IsActive = IsActive.IsChecked == true,
                     Country = Country.Text,
                     Gender = Gender.Text
                 };
@@ -44,9 +44,10 @@ namespace DiamondShop.WpfApp.UI.CustomerUI
 				var result = await _business.SearchByFields(customer);
 				MessageBox.Show(result.Message, "Save");
 
-				this.LoadGrdCustomer(result.Data as List<Customer>);
+                grdCustomer.ItemsSource = result.Data as List<Customer>;
+                this.LoadGrdCustomer(result.Data as List<Customer>);
 
-			}
+            }
 			catch (Exception ex)
 			{
 				MessageBox.Show(ex.ToString(), "Error");
@@ -227,8 +228,27 @@ namespace DiamondShop.WpfApp.UI.CustomerUI
 				}
 			}
 		}
+        private async void Window_LoadedAsync(object sender, RoutedEventArgs e)
+        {
 
-		private async void LoadGrdCustomer()
+            try
+            {
+                var customerResult = await _business.GetAll();
+                List<Customer>? customers = customerResult.Data as List<Customer>;
+
+                if (customers != null)
+                {
+                    grdCustomer.ItemsSource = customers;
+                }
+
+                LoadGrdCustomer();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while loading customers: {ex.Message}");
+            }
+        }
+        private async void LoadGrdCustomer()
 		{
 			var result = await _business.GetAll();
 

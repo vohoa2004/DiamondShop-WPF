@@ -40,8 +40,8 @@
                     <TextBox Grid.Row="0" Grid.Column="3" x:Name="Email" Height="25" Text="{Binding Path=Customer.Email, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
                     <Label Content="FirstName" Grid.Column="4" Grid.Row="0" HorizontalContentAlignment="Right"  VerticalContentAlignment="Center" Width="120"/>
                     <TextBox Grid.Row="0" Grid.Column="5" x:Name="FirstName" Height="25" Text="{Binding Path=Customer.FirstName, Mode=TwoWay}" Margin="5" Width="160" HorizontalAlignment="Left"/>
-					<Label Content="IsActive" Grid.Column="6" Grid.Row="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="120"/>
-                    <CheckBox Grid.Row="0" Grid.Column="7" x:Name="IsActive" Height="25" Margin="5" Width="50" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsChecked="{Binding Path=Customer.IsActive, Mode=OneWayToSource}" />
+                    <Label Content="IsActive" Grid.Column="6" Grid.Row="0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Width="120"/>
+                    <CheckBox Grid.Row="0" Grid.Column="7" x:Name="IsActive" Height="25" Margin="5" Width="50" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsChecked="{Binding Path=Customer.IsActive, Mode=TwoWay}"/>
 
                     <!-- Row 1 -->
                     <Label Content="LastName" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Right"  Width="120"  VerticalContentAlignment="Center"/>
@@ -65,11 +65,11 @@
                 Command="{Binding SaveCommand}" Click="ButtonAddNew_Click" Background="#FF2E3687" Foreground="White" />
                 <Button x:Name="ButtonCancel" Content="Cancel" Height="30" Width="80" 
                 Command="{Binding ResetCommand}" Margin="5,0,10,0" Click="ButtonCancel_Click" RenderTransformOrigin="0.718,10.343"/>
-                <Button x:Name="ButtonSearch_Copy" Content="Search" Height="30" Width="80" 
+                <Button x:Name="ButtonSearch" Content="Search" Height="30" Width="80" 
                     Command="{Binding SaveCommand}" Click="ButtonSearch_Click" Background="Green" Foreground="White" />
             </StackPanel>
             <StackPanel Height="310">
-                <DataGrid x:Name="grdCustomer" AutoGenerateColumns="False" ItemsSource="{Binding Customer}" 
+                <DataGrid x:Name="grdCustomer" AutoGenerateColumns="False" ItemsSource="{Binding Path=Customer}" 
                  CanUserAddRows="False" Height="310"                         MouseDoubleClick="grdCustomer_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow"
                     >
                     <!--SelectionChanged="grdCustomer_SelectionChanged"-->
@@ -82,13 +82,13 @@
                         </TransformGroup>
                     </UIElement.RenderTransform>
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Id" Binding="{Binding CustomerId}"  Width="60" Visibility="Visible"/>
-                        <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="170" />
-                        <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="120" />
-                        <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="70" />
+                        <DataGridTextColumn Header="Id" Binding="{Binding CustomerId, Mode=OneTime}"  Width="40" Visibility="Visible"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Email}" Width="80" />
+                        <DataGridTextColumn Header="FirstName" Binding="{Binding FirstName}" Width="120" />
+                        <DataGridTextColumn Header="LastName" Binding="{Binding LastName}" Width="70" />
                         <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="120" />
-                        <DataGridTextColumn Header="Is Active" Binding="{Binding IsActive}" Width="80" />
-                        <DataGridTextColumn Header="Date Of Birth" Binding="{Binding DateOfBirth}" Width="120" />
+                        <DataGridTextColumn Header="IsActive" Binding="{Binding IsActive}" Width="120" />
+                        <DataGridTextColumn Header="DateOfBirth" Binding="{Binding DateOfBirth}" Width="120" />
                         <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="70" />
                         <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="120" />
                         <DataGridTextColumn Header="Country" Binding="{Binding Country}" Width="120" />
